@@ -63,7 +63,6 @@ class _CurrencyListViewState extends State<CurrencyListView> {
             controller: _searchController,
             decoration: InputDecoration(
               labelText: "Search",
-              hintText: "Search",
               prefixIcon: const Icon(Icons.search),
               border: OutlineInputBorder(
                 borderSide: BorderSide(

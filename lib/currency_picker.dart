@@ -12,6 +12,7 @@ void showCurrencyPicker({
   @required BuildContext context,
   @required ValueChanged<Currency> onSelect,
   List<String> currencyFilter,
+  double bottomSheetBorderRadius,
 }) {
   assert(context != null);
   assert(onSelect != null);
@@ -19,6 +20,7 @@ void showCurrencyPicker({
     context: context,
     onSelect: onSelect,
     currencyFilter: currencyFilter,
+    bottomSheetBorderRadius: bottomSheetBorderRadius,
   );
 }
 
